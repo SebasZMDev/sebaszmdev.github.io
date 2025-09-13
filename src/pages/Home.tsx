@@ -5,6 +5,7 @@ import TextType from "../components/effects/TextType.tsx";
 import TiltedCard from "../components/effects/TiltedCard.tsx";
 import Proyects from "../components/Proyects.tsx";
 import Skills from "../components/Skills.tsx";
+import pfp from "../assets/pfp.jpeg"
 import "../styles/HomeStyles.css";
 
 
@@ -28,7 +29,7 @@ function Home() {
         />
         <div className="header-content">
           <TiltedCard
-            imageSrc="https://preview.redd.it/8hqgg6k86eq61.jpg?auto=webp&s=092e75a244d47ddf830d2835aaed0701b329b738"
+            imageSrc={pfp}
             altText=""
             captionText=""
             containerHeight="300px"
